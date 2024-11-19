@@ -2,8 +2,10 @@
 // Classificador de nivel de heroi, baseado no xp 
 
 let XP = 3419
+let texto = "O herói de nome "
+let nomeDoHeroi = "Malaquias"
+let textoDois = ", está no elo "
 let elo;
-let texto = "O elo do seu herói é: "
 
 if(XP <= 999){
     elo = "ferro"
@@ -25,4 +27,4 @@ if(XP <= 999){
     elo = "Nao identificado :("
 }
 
-console.log(texto + elo)
+console.log(texto + nomeDoHeroi + textoDois + elo)
